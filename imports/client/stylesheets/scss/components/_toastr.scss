@@ -1,0 +1,35 @@
+#toast-container {
+    position: fixed;
+    top: 30px;
+    right: 30px;
+
+    .toast {
+        position: relative;
+        width: 200px;
+        padding: 15px;
+        border: 1px solid #fff;
+        border-radius: 6px;
+        color: #fff;
+
+        > div {
+        }
+
+        > button {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+        }
+
+        &-success {
+            background-color: #39b54a;
+        }
+
+        &-error {
+            background-color: #f5989d;
+        }
+
+        & + & {
+            margin-top: 10px;
+        }
+    }
+}

@@ -1,0 +1,29 @@
+.cc-container {
+    max-width: 1140px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 15px;
+}
+
+.cc-row {
+    display: flex;
+    flex-flow: row wrap;
+    margin-right: -8px;
+    margin-left: -8px;
+}
+
+.col {
+    padding-right: 8px;
+    padding-left: 8px;
+
+    &.is-1-of-3 {
+        width: 33.333333%;
+    }
+
+    @media (max-width: 767px) {
+        &.is-3-of-3--bellow-tablet {
+            width: 100%;
+        }
+    }
+}

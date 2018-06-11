@@ -1,0 +1,18 @@
+.cc-app-header {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    background-color: #fbaf5d;
+    box-shadow: 0 6px 24px 0 rgba(0, 0, 0, 0.2), 0 0 24px 0 rgba(0, 0, 0, 0.11);
+
+    &__container {
+    }
+
+    &__brand {}
+
+    &__title {
+        font-weight: 700;
+        font-size: 38px;
+        color: #fff;
+    }
+}

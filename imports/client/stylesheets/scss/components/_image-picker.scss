@@ -1,0 +1,33 @@
+.cc-image-picker {
+
+    &__title {
+        display: block;
+        margin-bottom: 40px;
+        font-weight: 300;
+        font-size: 22px;
+    }
+
+    &__controls {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+        margin: -4px;
+    }
+
+    &__item {
+        width: 130px;
+        height: 130px;
+        margin: 4px;
+        padding: 4px;
+        background-color: #4f1c6b;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        cursor: pointer;
+
+        &.is-1 {}
+
+        &.is-2 {}
+
+        &.is-3 {}
+    }
+}

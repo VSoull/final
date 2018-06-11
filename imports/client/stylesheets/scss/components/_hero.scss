@@ -1,0 +1,36 @@
+.cc-hero {
+
+    &__content {
+        display: flex;
+        align-items: center;
+        height: calc(100vh - 100px);
+    }
+
+    &__caption {
+        max-width: 560px;
+    }
+
+    &__title {
+        margin-bottom: 30px;
+        font-size: 60px;
+        color: #fec342;
+    }
+
+    &__description {
+        margin-bottom: 60px;
+        line-height: 1.4;
+        font-size: 24px;
+        color: #040100;
+    }
+
+    &__cta {
+        font-size: 86px;
+        color: #ffa241;
+        cursor: pointer;
+        transition: 0.4s;
+
+        &:hover {
+            color: darken(#ffa241, 20%);
+        }
+    }
+}
